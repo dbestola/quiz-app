@@ -1,0 +1,175 @@
+body {
+    background-color: rgba(254, 255, 192, 0.973);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    background-color: rgb(245, 61, 61);
+    height: 50px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+
+#tiktik {
+    position: absolute;
+    right: 60px;
+    align-items: center;
+}
+
+#tittle {
+    position: absolute;
+    right: 50%;
+}
+
+
+#img {
+    position: absolute;
+    display: flex;
+}
+
+#img img {
+    width: 50px;
+    border-radius: 20px;
+}
+
+
+.section {
+    background-color: rgb(245, 61, 61);
+    margin: 30px 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+h3 {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+ol li {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.options {
+    padding: 10px;
+    width: 200px;
+    display: block;
+    border-radius: 20px;
+    border: none;
+    text-indent: 10px;
+    background-color: rgba(148, 148, 60, 0.562);
+    margin-bottom: 10px;
+    margin-left: 10px; 
+    
+}
+
+.options:hover {
+    color: #fff;
+    cursor: pointer;
+    background-color: rgb(24, 27, 22); 
+}
+
+.button button:hover {
+    cursor: pointer;
+    background-color: rgb(24, 27, 22);
+    transition: 1s ease-out;
+    transform: scale(1.05);
+}
+
+h5 {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+button {
+    background-color: rgb(245, 61, 61);
+    border-radius: 30px;
+    color: #fff;
+    border: none;
+    width: 60px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+
+
+.button {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px;
+
+}
+
+.scores {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+#scoreboard {        
+    height : 500px;
+    width : 300px;
+    background-color: rgb(245, 61, 61);
+    border-radius: 20px;
+    display: none;
+    text-align: center;
+}
+
+
+#scoreboard button {
+    width: 150px;
+    height: 50px;
+    border-radius: 5rem;
+    background-color: rgba(254, 255, 192, 0.973);
+    color: black;
+    margin-bottom: 10px;
+}
+
+#scoreboard button:hover {
+    color: #fff;
+    cursor: pointer;
+    background-color: rgb(24, 27, 22);
+}
+
+.displayAnswers {
+    height : 250px;
+    width : 250px;
+    background-color: rgb(245, 61, 61);
+    border-radius: 20px;
+    display: none;
+}
+
+.correctAnswers {
+    display: flex;
+    justify-content: center;
+   
+}
+
+#goback {
+    display: flex;
+    justify-content: center;
+}
+
+#answersDiv button {
+    width: 100px;
+    height: 20px;
+    border-radius: 5rem;
+    background-color: rgb(245, 61, 61);
+    color: black;
+    margin-top: 20px;
+
+   
+}
+
+#answersDiv button:hover {
+    color: #fff;
+    cursor: pointer;
+    background-color: rgb(24, 27, 22);
+}

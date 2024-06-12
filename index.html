@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+
+    <div id="tittle">
+        <h1>My Quiz App</h1>
+    </div>
+
+
+    <div id="img">
+    <img class="images"  src="" alt="image">
+    </div>
+
+
+    <div id="tiktik" >
+        <h2 id="timer"></h2>
+    </div>
+
+    </header>
+
+    <div class="quizcontainer">
+
+    <div class="section">
+
+        <h3 id="question"></h3>
+
+        <div class="ol">
+            <ol type="A">
+                <li> <span class="options" id="option0" onclick="calculateScore(this)"></span></li>
+                <li ><span class="options" id="option1" onclick="calculateScore(this)"></span></li>
+                <li ><span class="options" id="option2" onclick="calculateScore(this)"></span></li>
+                <li ><span class="options" id="option3" onclick="calculateScore(this)"></span></li>
+            </ol>
+        </div>
+
+        <h5 class="start"> </h5>
+
+
+    </div>
+
+<div class="button">
+    <button type="button" id="btn1">Prev</button>
+    <button type="button" id="btn2">Next</button>
+</div>
+
+</div>
+
+<div class="scores">
+    <div id="scoreboard">
+    <h2 class="Grading">  </h2>
+    <button type="button" onclick="BackToQuiz()"> Back to quiz</button>
+    <button type="button" onclick="showAnswers()"> Check answer </button>
+    </div>
+</div>
+
+
+<div class="correctAnswers">
+<div class="displayAnswers" id="answersDiv">
+    <h3>Find the correct answers below</h3>
+    <ol type="1" id="ol">
+        
+    </ol>
+
+    <div id="goback">
+    <button type="button" onclick="BackToQuiz ()"> Go Back </button>
+    </div>
+
+    </div>
+</div>
+
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
