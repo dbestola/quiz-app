@@ -20,35 +20,35 @@ var QuestionBank = [
         answer: 'Bola Ahmed Tinubu'
     },
     {
-        question: 'Q.3 Who is the CEO of AppClick',
-        options: ['seyi Adeleke', 'Osimhen', 'Paul Pogba', 'Obasanjo'],
-        answer: 'seyi Adeleke'
-    },
-    {
-        question: 'Q.4 Who is the CEO of AppClick',
-        options: ['seyi Adeleke', 'Osimhen', 'Paul Pogba', 'Obasanjo'],
-        answer: 'seyi Adeleke'
-    },
-    {
-        question: 'Q.5 Who is the CEO of AppClick',
-        options: ['seyi Adeleke', 'Osimhen', 'Paul Pogba', 'Obasanjo'],
-        answer: 'seyi Adeleke'
-    },
-    {
-        question: 'Q.6 Who is the CEO of AppClick',
-        options: ['seyi Adeleke', 'Osimhen', 'Paul Pogba', 'Obasanjo'],
-        answer: 'seyi Adeleke'
-    },
-    {
-        question: 'Q.7 Who is the CEO of AppClick',
-        options: ['seyi Adeleke', 'Osimhen', 'Paul Pogba', 'Obasanjo'],
-        answer: 'seyi Adeleke'
-    },
-    {
-        question: 'Q.8 Who is the CEO of AppClick',
-        options: ['seyi Adeleke', 'Osimhen', 'Paul Pogba', 'Obasanjo'],
-        answer: 'seyi Adeleke'
-    }
+        questions: 'How many ethnic groups do we have in Nigeria?',
+        options: ['300', '450', '350', '250'],
+        answer: '250',
+      },
+      {
+        questions: 'All but one of the following is not a symbol of political culture',
+        options: ['The government', 'An anthem', 'National flag', 'The constitution'],
+        answer: 'The government',
+      },
+      {
+        questions: 'In politics, power is all of the following EXCEPT',
+        options: ['Ability to make people do things they otherwise will not do', 'Capacity to affect the actions of others', 'An object', 'It is part of a relationship'],
+        answer: 'An object',
+      },
+      {
+        questions: 'One of the destructive features of a democracy is that it',
+        options: ['is not associated with one party state', 'connotes civil rule', 'facilitates popular participation', 'provided for a unicameral legislature'],
+        answer: 'provided for a unicameral legislature',
+      },
+      {
+        questions: 'Which of the following best describes French colonial policy in Africa?',
+        options: ['policy assimilation', 'policy of casus belli', 'policy of hostility', 'policy of association'],
+        answer: 'policy assimilation',
+      },
+      {
+        questions: 'A political concept that defines the beliefs, attitudes and values of a society is called',
+        options: ['Referendum', 'Political socialization', 'Political culture', 'Political transformation'],
+        answer: 'Political culture',
+      }
 ]
 
 var timer = document.getElementById('timer')
